@@ -1,11 +1,11 @@
 {
     "homepage": "https://zeppelin.apache.org/",
     "description": "Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.",
-    "version": "0.8.2",
+    "version": "0.9.0-preview1",
     "license": "Apache-2.0",
-    "url": "https://www.apache.org/dist/zeppelin/zeppelin-0.8.2/zeppelin-0.8.2-bin-all.tgz#/zeppelin.tar.gz",
-    "hash": "sha512:91a785153bc47b087f90fac0f83066fdede041d5193506b231af1b6855b150307873c92cea462c6dd48ef6d38caa37934591a08542199ac4b02d9493298fbd43",
-    "extract_dir": "zeppelin-0.8.2-bin-all",
+    "url": "https://apache.website-solution.net/zeppelin/zeppelin-0.9.0-preview1/zeppelin-0.9.0-preview1-bin-all.tgz",
+    "hash": "sha512:a79523af11a713b3bb3033e1342462002b0aa962cb045e7ec8f561e0b8d65d06cf98e86a6f0074d0b604701b09d1e67ad531e6c09bcfa0fad7f1aa4c4cfa5b89",
+    "extract_dir": "zeppelin-0.9.0-preview1-bin-all",
     "env_add_path": "bin",
     "suggest": {
         "JDK": [
@@ -18,10 +18,10 @@
         "re": "zeppelin-([\\d.]+)-bin-all.tgz"
     },
     "autoupdate": {
-        "url": "https://www.apache.org/dist/zeppelin/zeppelin-$version/zeppelin-$version-bin-all.tgz#/zeppelin.tar.gz",
+        "url": "https://apache.website-solution.net/zeppelin/zeppelin-$version/zeppelin-$version-bin-all.tgz#/zeppelin.tar.gz",
         "extract_dir": "zeppelin-$version-bin-all",
         "hash": {
-            "url": "$url.sha512"
+            "url": "https://www.apache.org/dist/zeppelin/zeppelin-$version/zeppelin-$version-bin-all.tgz.sha512"
         }
     },
     "persist": [
